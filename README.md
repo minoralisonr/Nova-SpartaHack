@@ -1,5 +1,5 @@
-###Nova
-Nova is an innovative AI-powered app inspired on preventing lifestyle diseases. This web-based app was bootstrapped with Create React App.
+### Nova
+Nova is a personalized AI-powered web-based app, that helps to prevent lifestyle diseases. This web-based app was bootstrapped with Create React App.
 
 Available Scripts
 In the frontend directory, you can run:
