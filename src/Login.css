@@ -1,0 +1,120 @@
+/* Background Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(#007bff, #08dd92) !important;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Login Container (Box) */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Login Box (Matches SignUp Box) */
+.login-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 400px; /* Same width as SignUp */
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Heading */
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.subtitle {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Input Fields */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 5;
+  border: 1px solid #0693f8;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: left; /* Align text same as SignUp */
+}
+
+/* Login Button */
+.login-btn {
+  width: 100%;
+  background: linear-gradient(135deg, #007bff, #00cc66); /* Blue-to-Green Gradient */
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+  animation: breathing 2s infinite ease-in-out;
+}
+
+.login-btn:hover {
+  background: #00994d;
+}
+
+/* Sign Up Link */
+.signup-link {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.signup-link span {
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-link span:hover {
+  text-decoration: underline;
+}
+
+/* Transparent Back Button */
+.back-btn {
+  background: transparent; /* No background */
+  border: 1px solid #007bff; /* Blue border */
+  color: #007bff; /* Blue text */
+  padding: 6px 12px; /* Smaller size */
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+/* Hover Effect */
+.back-btn:hover {
+  background: rgba(0, 123, 255, 0.1); /* Light blue tint on hover */
+}
